@@ -1,0 +1,32 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to right, red , yellow);
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font-size: 3em;
+    width: 100%;
+}
+
+.inputs{
+    margin: 20px 0;
+}
+
+#button{
+    cursor: pointer;
+    display: inline;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 50px; 
+    border: 3px solid red;
+    transition: all 0.5s;
+}
+
+#button:hover{  
+    background-color: orangered;
+    border-color: orangered;
+    border-width: 10px;
+}
